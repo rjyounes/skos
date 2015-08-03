@@ -1,2 +1,4 @@
 .project
 .settings
+.build
+build.properties
