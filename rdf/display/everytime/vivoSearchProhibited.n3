@@ -1,0 +1,8 @@
+@prefix vivoweb: <http://vivoweb.org/ontology/core#> .
+@prefix vitroDisplay: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
+
+ vitroDisplay:SearchIndex 
+	vitroDisplay:excludeClass vivoweb:DateTimeValue ;
+    vitroDisplay:excludeClass vivoweb:DateTimeValuePrecision ;
+	vitroDisplay:excludeClass vivoweb:DateTimeInterval ;
+
