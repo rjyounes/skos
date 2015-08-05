@@ -43,28 +43,8 @@ service at its discretion.
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">255</nyt:associated_article_count>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N11498128025605718740.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N11498128025605718740"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-11</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N11498128025605718740"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/55820956861827004320.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/55820956861827004320"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-16</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/55820956861827004320"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
+  
+  
   <rdf:Description rdf:about="http://data.nytimes.com/N91526699108838302740">
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-02</nyt:first_use>
     <skos:scopeNote xml:lang="en">Used for coverage that focuses on Hispanic-Americans as a group.&lt;br&gt;</skos:scopeNote>
@@ -80,28 +60,8 @@ service at its discretion.
     <skos:prefLabel xml:lang="en">Hispanic-Americans</skos:prefLabel>
     <rdfs:label xml:lang="en">Hispanic-Americans</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/15855352195381723050.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/15855352195381723050"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-03</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/15855352195381723050"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N35399201578890315570.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N35399201578890315570"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-02</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N35399201578890315570"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
+  
+  
   <rdf:Description rdf:about="http://data.nytimes.com/48662871776634757120">
     <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/ethics_des"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
@@ -179,94 +139,14 @@ service at its discretion.
     <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/race_des"/> -->
     <skos:scopeNote xml:lang="en">Used for the issue of race and/or racism in general.&lt;br&gt;</skos:scopeNote>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N51945775394843697130.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N51945775394843697130"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-16</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N51945775394843697130"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N26106900672128000670.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N26106900672128000670"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-10</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N26106900672128000670"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/35650261220585038780.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/35650261220585038780"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-11</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/35650261220585038780"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/61574766682875886440.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/61574766682875886440"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-04</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/61574766682875886440"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N51632704028954420010.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N51632704028954420010"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-26</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N51632704028954420010"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/29474696367195403420.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/29474696367195403420"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-24</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/29474696367195403420"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N82514658076116231170.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N82514658076116231170"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-05</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N82514658076116231170"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/26786266394523071740.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/26786266394523071740"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-23</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/26786266394523071740"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
+  
+  
+  
+  
+  
+  
+  
+  
   <rdf:Description rdf:about="http://data.nytimes.com/13269357492300061310">
     <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/E-mail"/> -->
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -282,17 +162,7 @@ service at its discretion.
     <skos:prefLabel xml:lang="en">Electronic Mail</skos:prefLabel>
     <rdfs:label xml:lang="en">Electronic Mail</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N74512567741031458600.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N74512567741031458600"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-05</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N74512567741031458600"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
+  
   <rdf:Description rdf:about="http://data.nytimes.com/61343264436704506050">
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-07</nyt:latest_use>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BBoards+of+Directors%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
@@ -308,17 +178,7 @@ service at its discretion.
     <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Board_of_directors"/> -->
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-12</nyt:first_use>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N18465944563387646220.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N18465944563387646220"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-11</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N18465944563387646220"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
+  
   <rdf:Description rdf:about="http://data.nytimes.com/N51632704028954420010">
     <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/embezzlement_des"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-10</nyt:latest_use>
@@ -382,28 +242,8 @@ service at its discretion.
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3277</nyt:associated_article_count>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/29588632782861654940.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/29588632782861654940"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-11</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/29588632782861654940"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/13177510714697662420.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/13177510714697662420"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-25</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/13177510714697662420"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
+  
+  
   <rdf:Description rdf:about="http://data.nytimes.com/N33374211497834150290">
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -419,17 +259,7 @@ service at its discretion.
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">273</nyt:associated_article_count>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-13</nyt:latest_use>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.nytimes.com/N46789278496559093830.rdf">
-    <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N46789278496559093830"/>
-    <dcterms:rightsHolder rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dcterms:rightsHolder>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-22</dcterms:modified>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-18</dcterms:created>
-    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</dc:creator>
-    <nyt:mapping_strategy rdf:resource="http://data.nytimes.com/elements/manual"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/us/"/>
-    <cc:attributionURL rdf:resource="http://data.nytimes.com/N46789278496559093830"/>
-    <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
-  </rdf:Description>
+  
   <rdf:Description rdf:about="http://data.nytimes.com/48674083973250416640">
     <skos:scopeNote xml:lang="en">Used for coverage that focuses on Kurdish people as a group.&lt;br&gt;</skos:scopeNote>
     <skos:prefLabel xml:lang="en">Kurds</skos:prefLabel>
