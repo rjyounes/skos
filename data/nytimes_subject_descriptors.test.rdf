@@ -15,6 +15,7 @@ service at its discretion.
 -->
 
 <rdf:RDF
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:nyt="http://data.nytimes.com/elements/"
@@ -29,15 +30,16 @@ service at its discretion.
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
   <rdf:Description rdf:about="http://data.nytimes.com/63675591820156548190">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/olympic_games_2006_des"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.2006_winter_olympics"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/olympic_games_2006_des"/> -->
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.2006_winter_olympics"/> -->
     <skos:scopeNote xml:lang="en">Used for all coverage of the 2006 Olympic Games.&lt;br&gt;</skos:scopeNote>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-17</nyt:latest_use>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BOlympic+Games+%282006%29%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/2006_Winter_Olympics"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/2006_Winter_Olympics"/> -->
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-23</nyt:first_use>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <skos:prefLabel xml:lang="en">Olympic Games (2006)</skos:prefLabel>
+    <rdfs:label xml:lang="en">Olympic Games (2006)</rdfs:label>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">255</nyt:associated_article_count>
   </rdf:Description>
@@ -68,14 +70,15 @@ service at its discretion.
     <skos:scopeNote xml:lang="en">Used for coverage that focuses on Hispanic-Americans as a group.&lt;br&gt;</skos:scopeNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BHispanic-Americans%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/hispanic_americans_des"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Hispanic_and_Latino_Americans"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.hispanic_and_latino_americans"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/hispanic_americans_des"/> -->
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Hispanic_and_Latino_Americans"/> -->
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.hispanic_and_latino_americans"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-12</nyt:latest_use>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">600</nyt:associated_article_count>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <skos:prefLabel xml:lang="en">Hispanic-Americans</skos:prefLabel>
+    <rdfs:label xml:lang="en">Hispanic-Americans</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/15855352195381723050.rdf">
     <foaf:primaryTopic rdf:resource="http://data.nytimes.com/15855352195381723050"/>
@@ -100,10 +103,11 @@ service at its discretion.
     <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/48662871776634757120">
-    <owl:sameAs rdf:resource="http://data.nytimes.com/ethics_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/ethics_des"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Ethics</skos:prefLabel>
+    <rdfs:label xml:lang="en">Ethics</rdfs:label>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BEthics%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <skos:scopeNote xml:lang="en">Used for issues of morality but also for unethical behavior, especially with regard to public figures (e.g. ethics inquiries into political corruption).&lt;br&gt;</skos:scopeNote>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
@@ -117,38 +121,41 @@ service at its discretion.
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2399</nyt:associated_article_count>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.fraud"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.fraud"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-13</nyt:latest_use>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <skos:prefLabel xml:lang="en">Frauds and Swindling</skos:prefLabel>
+    <rdfs:label xml:lang="en">Frauds and Swindling</rdfs:label>
     <skos:scopeNote xml:lang="en">Used for all fraudulent acts (willful deception intended to deprive another) unless a more narrow term applies.&lt;br&gt;</skos:scopeNote>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/frauds_and_swindling_des"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Fraud"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/frauds_and_swindling_des"/> -->
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Fraud"/> -->
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BFrauds+and+Swindling%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/N46789278496559093830">
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0jm_"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0jm_"/> -->
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5980</nyt:associated_article_count>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BFootball%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-10</nyt:latest_use>
     <nyt:topicPage rdf:resource="http://topics.nytimes.com/top/reference/timestopics/people/b/gary_barnett/index.html"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/American_football"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/American_football"/> -->
     <skos:prefLabel xml:lang="en">Football</skos:prefLabel>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/football_des"/>
+    <rdfs:label xml:lang="en">Football</rdfs:label>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/football_des"/> -->
     <skos:scopeNote xml:lang="en">Used for all coverage of professional, collegiate and recreational football.&lt;br&gt;</skos:scopeNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/N87396643740924298350">
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Language"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Language"/> -->
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/quotationsbook.subject.language"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/quotationsbook.subject.language"/> -->
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <skos:prefLabel xml:lang="en">Language and Languages</skos:prefLabel>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/language_and_languages_des"/>
+    <rdfs:label xml:lang="en">Language and Languages</rdfs:label>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/language_and_languages_des"/> -->
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BLanguage+and+Languages%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">607</nyt:associated_article_count>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-05</nyt:first_use>
@@ -157,10 +164,11 @@ service at its discretion.
     <skos:scopeNote xml:lang="en">Used for all coverage of languages in general or any coverage where a more specific term does not exist.&lt;br&gt;</skos:scopeNote>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/67127689201361879040">
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Race_%28classification_of_human_beings%29"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Race_%28classification_of_human_beings%29"/> -->
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BRace%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.race"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.race"/> -->
     <skos:prefLabel xml:lang="en">Race</skos:prefLabel>
+    <rdfs:label xml:lang="en">Race</rdfs:label>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
     <nyt:topicPage rdf:resource="http://topics.nytimes.com/top/reference/timestopics/subjects/r/race/index.html"/>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-10-10</nyt:first_use>
@@ -168,7 +176,7 @@ service at its discretion.
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">866</nyt:associated_article_count>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/race_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/race_des"/> -->
     <skos:scopeNote xml:lang="en">Used for the issue of race and/or racism in general.&lt;br&gt;</skos:scopeNote>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/N51945775394843697130.rdf">
@@ -260,18 +268,19 @@ service at its discretion.
     <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/13269357492300061310">
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/E-mail"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/E-mail"/> -->
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.e-mail"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.e-mail"/> -->
     <skos:scopeNote xml:lang="en">Used for all coverage of e-mail.&lt;br&gt;</skos:scopeNote>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-10-13</nyt:first_use>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-16</nyt:latest_use>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/electronic_mail_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/electronic_mail_des"/> -->
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">305</nyt:associated_article_count>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BElectronic+Mail%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <skos:prefLabel xml:lang="en">Electronic Mail</skos:prefLabel>
+    <rdfs:label xml:lang="en">Electronic Mail</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/N74512567741031458600.rdf">
     <foaf:primaryTopic rdf:resource="http://data.nytimes.com/N74512567741031458600"/>
@@ -289,13 +298,14 @@ service at its discretion.
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BBoards+of+Directors%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</nyt:associated_article_count>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/boards_of_directors_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/boards_of_directors_des"/> -->
     <skos:prefLabel xml:lang="en">Boards of Directors</skos:prefLabel>
+    <rdfs:label xml:lang="en">Boards of Directors</rdfs:label>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <skos:scopeNote xml:lang="en">Used for coverage of the boards of directors of organizations.&lt;br&gt;</skos:scopeNote>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.board_of_directors"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.board_of_directors"/> -->
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Board_of_directors"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Board_of_directors"/> -->
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-12</nyt:first_use>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/N18465944563387646220.rdf">
@@ -310,16 +320,17 @@ service at its discretion.
     <cc:attributionName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The New York Times Company</cc:attributionName>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/N51632704028954420010">
-    <owl:sameAs rdf:resource="http://data.nytimes.com/embezzlement_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/embezzlement_des"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-10</nyt:latest_use>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.embezzlement"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.embezzlement"/> -->
     <skos:scopeNote xml:lang="en">Used for all coverage of embezzlement.&lt;br&gt;</skos:scopeNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BEmbezzlement%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-25</nyt:first_use>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Embezzlement"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Embezzlement"/> -->
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">169</nyt:associated_article_count>
     <skos:prefLabel xml:lang="en">Embezzlement</skos:prefLabel>
+    <rdfs:label xml:lang="en">Embezzlement</rdfs:label>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
   </rdf:Description>
@@ -329,40 +340,43 @@ service at its discretion.
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <skos:prefLabel xml:lang="en">Surgery and Surgeons</skos:prefLabel>
+    <rdfs:label xml:lang="en">Surgery and Surgeons</rdfs:label>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BSurgery+and+Surgeons%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-04</nyt:latest_use>
     <nyt:topicPage rdf:resource="http://topics.nytimes.com/top/news/health/diseasesconditionsandhealthtopics/surgery_and_surgeons/index.html"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/surgery_and_surgeons_des"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.surgery"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Surgery"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/surgery_and_surgeons_des"/> -->
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.surgery"/> -->
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Surgery"/> -->
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">408</nyt:associated_article_count>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/11711231656605160440">
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <skos:prefLabel xml:lang="en">Civil War and Guerrilla Warfare</skos:prefLabel>
+    <rdfs:label xml:lang="en">Civil War and Guerrilla Warfare</rdfs:label>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-04</nyt:first_use>
     <skos:narrowMatch rdf:resource="http://rdf.freebase.com/ns/en.civil_war"/>
     <skos:scopeNote xml:lang="en">Term is combined with relevant country name for any coverage of civil or guerrilla warfare.&amp;nbsp; When a narrower term exists for a specific war, that term is used instead.&lt;br&gt;</skos:scopeNote>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">893</nyt:associated_article_count>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/civil_war_and_guerrilla_warfare_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/civil_war_and_guerrilla_warfare_des"/> -->
     <skos:narrowMatch rdf:resource="http://dbpedia.org/resource/Civil_war"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BCivil+War+and+Guerrilla+Warfare%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/N46947993015316202320">
-    <owl:sameAs rdf:resource="http://data.nytimes.com/banks_and_banking_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/banks_and_banking_des"/> -->
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
     <skos:prefLabel xml:lang="en">Banks and Banking</skos:prefLabel>
+    <rdfs:label xml:lang="en">Banks and Banking</rdfs:label>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bank"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bank"/> -->
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BBanks+and+Banking%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <nyt:topicPage rdf:resource="http://topics.nytimes.com/top/news/business/small-business/finance-and-capital/index.html"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.bank"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.bank"/> -->
     <skos:definition xml:lang="en">In the wake of the credit crisis, small business owners have had to be especially creative about how they raise money and finance operations. This section offers advice on everything from arranging loans, to soliciting angel investors, to going public.</skos:definition>
     <skos:scopeNote xml:lang="en">Used for all coverage of banks.&amp;nbsp; This term is used in combination with other terms to denote issues such as banking regulation or nationalization of banks.&lt;br&gt;</skos:scopeNote>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3277</nyt:associated_article_count>
@@ -395,12 +409,13 @@ service at its discretion.
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">Used for coverage of social parties, unless a more narrow term applies.&lt;br&gt;</skos:scopeNote>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.party"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Party"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/parties_social_des"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.party"/> -->
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Party"/> -->
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/parties_social_des"/> -->
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BParties+%28Social%29%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <skos:prefLabel xml:lang="en">Parties (Social)</skos:prefLabel>
+    <rdfs:label xml:lang="en">Parties (Social)</rdfs:label>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">273</nyt:associated_article_count>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-13</nyt:latest_use>
   </rdf:Description>
@@ -418,26 +433,28 @@ service at its discretion.
   <rdf:Description rdf:about="http://data.nytimes.com/48674083973250416640">
     <skos:scopeNote xml:lang="en">Used for coverage that focuses on Kurdish people as a group.&lt;br&gt;</skos:scopeNote>
     <skos:prefLabel xml:lang="en">Kurds</skos:prefLabel>
+    <rdfs:label xml:lang="en">Kurds</rdfs:label>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Kurdish_people"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Kurdish_people"/> -->
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BKurds%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.kurdish_people"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.kurdish_people"/> -->
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">254</nyt:associated_article_count>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-27</nyt:latest_use>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/kurds_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/kurds_des"/> -->
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-07</nyt:first_use>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/1442099312985501130">
     <skos:narrowMatch rdf:resource="http://dbpedia.org/resource/Firefighter"/>
     <skos:prefLabel xml:lang="en">Fires and Firefighters</skos:prefLabel>
+    <rdfs:label xml:lang="en">Fires and Firefighters</rdfs:label>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BFires+and+Firefighters%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-27</nyt:first_use>
     <skos:scopeNote xml:lang="en">Used for all coverage related to fires unless a more narrow term applies.&lt;br&gt;</skos:scopeNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/fires_and_firefighters_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/fires_and_firefighters_des"/> -->
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">970</nyt:associated_article_count>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <skos:narrowMatch rdf:resource="http://rdf.freebase.com/ns/en.firefighter"/>
@@ -446,7 +463,7 @@ service at its discretion.
   <rdf:Description rdf:about="http://data.nytimes.com/26455909849457245650">
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1909</nyt:associated_article_count>
     <nyt:topicPage rdf:resource="http://topics.nytimes.com/top/classifieds/autos/topics/automobile_technology/index.html"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/science_and_technology_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/science_and_technology_des"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-13</nyt:latest_use>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BScience+and+Technology%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
@@ -455,32 +472,35 @@ service at its discretion.
     <skos:narrowMatch rdf:resource="http://dbpedia.org/resource/Science"/>
     <skos:narrowMatch rdf:resource="http://rdf.freebase.com/ns/m.06mq7"/>
     <skos:prefLabel xml:lang="en">Science and Technology</skos:prefLabel>
+    <rdfs:label xml:lang="en">Science and Technology</rdfs:label>
     <skos:scopeNote xml:lang="en">Used primarily for articles that focus on research and innovation in science and technology.&lt;br&gt;</skos:scopeNote>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-02</nyt:first_use>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/63702709866619193830">
     <skos:prefLabel xml:lang="en">Deaths (Obituaries)</skos:prefLabel>
+    <rdfs:label xml:lang="en">Deaths (Obituaries)</rdfs:label>
     <skos:scopeNote xml:lang="en">Used only for obituaries.&lt;br&gt;</skos:scopeNote>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BDeaths+%28Obituaries%29%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Obituary"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Obituary"/> -->
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6512</nyt:associated_article_count>
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/deaths_obituaries_des"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.obituary"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/deaths_obituaries_des"/> -->
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.obituary"/> -->
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.nytimes.com/12616005164565487480">
     <skos:prefLabel xml:lang="en">Federal District Courts</skos:prefLabel>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/federal_district_courts_des"/>
+    <rdfs:label xml:lang="en">Federal District Courts</rdfs:label>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/federal_district_courts_des"/> -->
     <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-09</nyt:first_use>
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BFederal+District+Courts%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/United_States_district_court"/>
+    <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/United_States_district_court"/> -->
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</nyt:number_of_variants>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
-    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.united_states_district_court"/>
+    <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.united_states_district_court"/> -->
     <skos:scopeNote xml:lang="en">Used for coverage of the court system itself (appointments, confirmation hearings, ethical questions raised about the judges, reorganizations, work loads, etc.) as well as trials and decisions.&lt;br&gt;</skos:scopeNote>
     <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-07</nyt:latest_use>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</nyt:associated_article_count>
@@ -495,9 +515,15 @@ service at its discretion.
     <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BColleges+and+Universities%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
     <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
     <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2664</nyt:associated_article_count>
-    <owl:sameAs rdf:resource="http://data.nytimes.com/colleges_and_universities_des"/>
+    <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/colleges_and_universities_des"/> -->
     <skos:prefLabel xml:lang="en">Colleges and Universities</skos:prefLabel>
+    <rdfs:label xml:lang="en">Colleges and Universities</rdfs:label>
     <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.nytimes.com/elements/nytd_des">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">New York Times Subject Descriptors</skos:prefLabel>
+    <rdfs:label xml:lang="en">New York Times Subject Descriptors</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
