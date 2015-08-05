@@ -19,6 +19,9 @@ s.gsub!(/((^\s*)<skos:prefLabel([^>]+)>(.+)<\/skos:prefLabel>)/, "\\1\n\\2<rdfs:
 # This may be specific to the NYTimes dataset
 s.gsub!(/(<owl:sameAs[^>]+\/(owl:sameAs)?>)/, "<!-- \\1 -->")
 
+# Remove rdf document individuals
+s.gsub!(/<rdf:Description rdf:about="[^>]+\.rdf">.+?<\/rdf:Description>/m, '')
+
 # Add the ConceptScheme individual that all Concepts in the dataset are part of.
 # This addition is specific to the NYTimes dataset
 nytd_des = 'rdf:Description rdf:about="http://data.nytimes.com/elements/nytd_des"' 
