@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
   xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
-  xmlns:demo="http://demo.mannlib.cornell.edu/gedcom/demo#"
+  xmlns:demo="http://demo.mannlib.cornell.edu/skos/demo#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -10,7 +10,7 @@
   <!-- 
       Classgroups use namespace 
       http://demo.mannlib.cornell.edu/skos/demo#, because they are internal 
-      constructs of the application, not part of the general gedcom 
+      constructs of the application, not part of the general skos 
       ontology.
       
       Note that in VIVO, neither the classgroup ontology URI 
@@ -29,7 +29,7 @@
     <vitro:displayRank rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</vitro:displayRank>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://demo.mannlib.cornell.edu/gedcom/demo#vitroClassGroupConceptSchemes">
+  <rdf:Description rdf:about="http://demo.mannlib.cornell.edu/skos/demo#vitroClassGroupConceptSchemes">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:label xml:lang="en-US">concept schemes</rdfs:label>
     <vitro:modTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-07T11:35:00-4:00</vitro:modTime>
@@ -37,7 +37,7 @@
     <vitro:displayRank rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</vitro:displayRank>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://demo.mannlib.cornell.edu/gedcom/demo#vitroClassGroupCollections">
+  <rdf:Description rdf:about="http://demo.mannlib.cornell.edu/skos/demo#vitroClassGroupCollections">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:label xml:lang="en-US">collections</rdfs:label>
     <vitro:modTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-07T11:35:00-4:00</vitro:modTime>

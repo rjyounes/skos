@@ -4,7 +4,7 @@
 @prefix display: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix demo: <http://demo.mannlib.cornell.edu/gedcom/demo#> .
+@prefix demo: <http://demo.mannlib.cornell.edu/skos/demo#> .
 
 ### This file defines the default menu for demo-vitro. ###
 ### It overrides the menu.n3 from vitro.

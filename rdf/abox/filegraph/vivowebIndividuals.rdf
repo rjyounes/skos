@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vivoweb="http://vivoweb.org/ontology/core#">
+    
+    <!-- These individuals are created in Vitro as skos:Concepts by some 
+        poorly conceived code. In order to hide these individuals once the 
+        skos ontology is ingested, they are be declared of type 
+        vivoweb:DateTimeValuePrecision, and the class is then hidden from search
+        and from display below root user level.        
+    -->
+
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthDayPrecision ">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision ">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthPrecision ">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yeaPrecision ">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </rdf:Description>
+</rdf:RDF>
