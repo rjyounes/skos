@@ -7,9 +7,15 @@
 
 ##### ONTOLOGY METADATA #####
 
+<http://www.w3.org/2004/02/skos/core#> 
+    rdfs:label "SKOS (Simple Knowledge Organization System"@en-US ;  
+    vitro:ontologyPrefixAnnot "skos"^^xsd:string .
+    
 <http://vitro.mannlib.cornell.edu/ns/vitro/public>
     rdfs:label "Vitro Public Ontology"@en-US ;
     vitro:ontologyPrefixAnnot "vitro-public"^^xsd:string .
+    
+   
 
     
 ##### CLASSES #####
@@ -24,5 +30,256 @@ vivoweb:DateTimeValueInterval
               
 vivoweb:DateTimeValuePrecision
       vitro:hiddenFromDisplayBelowRoleLevelAnnot
-              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> ;     
+              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> ;    
 
+skos:Concept
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/skos/demo#vitroClassGroupConcepts> .
+    
+skos:ConceptScheme
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/skos/demo#vitroClassGroupConceptSchemes> .
+    
+skos:Collection
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/skos/demo#vitroClassGroupCollections> .
+    
+skos:OrderedCollection
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/skos/demo#vitroClassGroupCollections> .
+    
+    
+##### OBJECT PROPERTIES #####  
+
+### PROPERTY GROUP MEMBERS ###
+
+skos:member
+    # rdfs:label "has member"@en-US;
+    vitro:displayRankAnnot "0"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupMembers> . 
+              
+skos:memberList
+    # rdfs:label "has member list"@en-US;
+    vitro:displayRankAnnot "1"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupMembers> .  
+      
+### PROPERTY GROUP SCHEMES ###
+
+skos:topConceptOf
+    # rdfs:label "is top concept in scheme"@en-US;
+    vitro:displayRankAnnot "0"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupSchemes> .
+              
+skos:inScheme
+    # rdfs:label "is in scheme"@en-US;
+    vitro:displayRankAnnot "1"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupSchemes> . 
+              
+             
+### PROPERTY GROUP CONCEPTS ###              
+
+skos:hasTopConcept
+    # rdfs:label "has top concept"@en-US;
+    vitro:displayRankAnnot "0"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> . 
+              
+skos:semanticRelation
+    # rdfs:label "is in semantic relation with"@en-US;
+    vitro:displayRankAnnot "1"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .   
+              
+skos:broaderTransitive
+    # rdfs:label "has broader transitive"@en-US;
+    vitro:displayRankAnnot "2"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> . 
+              
+skos:broader
+    # rdfs:label "has broader"@en-US;
+    vitro:displayRankAnnot "3"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .  
+
+skos:broadMatch
+    # rdfs:label "has broader match"@en-US;
+    vitro:displayRankAnnot "4"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .  
+                            
+skos:narrowerTransitive
+    rdfs:label "has narrower transitive"@en-US;
+    vitro:displayRankAnnot "5"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .  
+              
+skos:narrower
+    # rdfs:label "has narrower"@en-US;
+    vitro:displayRankAnnot "6"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .  
+
+skos:narrowMatch
+    # rdfs:label "has narrower match"@en-US;
+    vitro:displayRankAnnot "7"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .
+              
+skos:related
+    # rdfs:label "has related"@en-US;
+    vitro:displayRankAnnot "8"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .
+              
+skos:relatedMatch
+    # rdfs:label "has related match"@en-US;
+    vitro:displayRankAnnot "9"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .              
+
+skos:mappingRelation
+    # rdfs:label "is in mapping relation with"@en-US;
+    vitro:displayRankAnnot "10"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .
+              
+skos:closeMatch
+    # rdfs:label "has close match"@en-US;
+    vitro:displayRankAnnot "11"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .
+              
+skos:exactMatch
+    # rdfs:label "has exact match"@en-US;
+    vitro:displayRankAnnot "12"^^xsd:int ;
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inPropertyGroupAnnot
+              <http://demo.mannlib.cornell.edu/skos/demo#vitroPropertyGroupConcepts> .
+                                          
+                       
