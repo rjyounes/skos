@@ -1,0 +1,104 @@
+# $This file is distributed under the terms of the license in /doc/license.txt$ 
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix display: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix demo: <http://demo.mannlib.cornell.edu/gedcom/demo#> .
+
+### This file defines the default menu for demo-vitro. ###
+### It overrides the menu.n3 from vitro.
+
+#### Default Menu ####
+
+display:DefaultMenu 
+    a  display:MainMenu ;
+    rdfs:label "Default Menu" ;
+    display:hasElement display:HomeMenuItem ;
+    display:hasElement display:ConceptsMenuItem ;
+    display:hasElement display:ConceptSchemesMenuItem ;
+    display:hasElement display:CollectionsMenuItem .   
+     
+#### Menu Items for Default Menu ####
+
+display:HomeMenuItem 
+    a display:NavigationElement ;
+    display:menuPosition 1;
+    display:linkText "Home";
+    display:toPage display:Home .
+
+display:ConceptsMenuItem
+    a display:NavigationElement ;
+    display:menuPosition 2;
+    display:linkText "Concepts";
+    display:toPage display:Concepts .
+
+display:ConceptSchemesMenuItem     
+    a display:NavigationElement ;
+    display:menuPosition 3;
+    display:linkText "Concept Schemes";
+    display:toPage display:ConceptSchemes .
+    
+display:CollectionsMenuItem 
+    a display:NavigationElement ;
+    display:menuPosition 4;
+    display:linkText "Collections";
+    display:toPage display:Collections .   
+
+
+# Display pages #
+
+display:Home 
+    a display:HomePage ;    
+    a display:Page ;
+    display:title "Home" ;    
+    display:urlMapping "/" ;
+    display:hasDataGetter display:homeDataGetter;
+    display:cannotDeletePage "true" .
+
+display:Concepts 
+    a display:Page ;    
+    a display:ClassGroupPage;
+    display:forClassGroup demo:vitroClassGroupConcepts ;
+    display:title "Concepts" ;
+    display:urlMapping "/concepts" ;
+    display:hasDataGetter display:conceptsDataGetter .
+    
+display:ConceptSchemes 
+    a display:Page ;    
+    a display:ClassGroupPage;
+    display:forClassGroup demo:vitroClassGroupConceptSchemes ;
+    display:title "Concept Schemes" ;
+    display:urlMapping "/conceptschemes" ;
+    display:hasDataGetter display:conceptSchemesDataGetter .
+
+display:Collections 
+    a display:Page ;    
+    a display:ClassGroupPage;
+    display:forClassGroup demo:vitroClassGroupCollections ;
+    display:title "Collections" ;
+    display:urlMapping "/collections" ;
+    display:hasDataGetter display:collectionsDataGetter .
+
+
+    
+# The data getter objects used above #
+
+display:homeDataGetter
+      a <java:edu.cornell.mannlib.vitro.webapp.utils.dataGetter.BrowseDataGetter> .
+      
+display:conceptsDataGetter
+      a <java:edu.cornell.mannlib.vitro.webapp.utils.dataGetter.ClassGroupPageData>;
+      display:forClassGroup
+              demo:vitroClassGroupConcepts .
+
+display:conceptSchemesDataGetter
+      a <java:edu.cornell.mannlib.vitro.webapp.utils.dataGetter.ClassGroupPageData>;
+      display:forClassGroup
+              demo:vitroClassGroupConceptSchemes .
+
+display:collectionsDataGetter
+      a <java:edu.cornell.mannlib.vitro.webapp.utils.dataGetter.ClassGroupPageData>;
+      display:forClassGroup
+              demo:vitroClassGroupCollections .
+              

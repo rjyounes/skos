@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+This material is licensed under a Creative Commons Attribution 3.0
+United States License available at:
+
+http://creativecommons.org/licenses/by/3.0/us/
+
+This material is protected by copyright, and owned or controlled by The
+New York Times Company.
+
+Disclaimer: The New York Times Linked Data service is in Beta and The
+New York Times Company retains the right to modify or discontinue this
+service at its discretion.
+-->
+
+<rdf:RDF
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:nyt="http://data.nytimes.com/elements/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:fb="http://rdf.freebase.com/ns/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:geonames="http://www.geonames.org/ontology#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
+    <rdf:Description rdf:about="http://data.nytimes.com/63675591820156548190">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/olympic_games_2006_des"/> -->
+        <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.2006_winter_olympics"/> -->
+        <skos:scopeNote xml:lang="en">Used for all coverage of the 2006 Olympic Games.&lt;br&gt;</skos:scopeNote>
+        <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-17</nyt:latest_use>
+        <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BOlympic+Games+%282006%29%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
+        <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/2006_Winter_Olympics"/> -->
+        <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-23</nyt:first_use>
+        <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
+        <skos:prefLabel xml:lang="en">Olympic Games (2006)</skos:prefLabel>
+        <rdfs:label xml:lang="en">Olympic Games (2006)</rdfs:label>
+        <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
+        <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">255</nyt:associated_article_count>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://data.nytimes.com/63702709866619193830">
+        <skos:prefLabel xml:lang="en">Deaths (Obituaries)</skos:prefLabel>
+        <rdfs:label xml:lang="en">Deaths (Obituaries)</rdfs:label>
+        <skos:scopeNote xml:lang="en">Used only for obituaries.&lt;br&gt;</skos:scopeNote>
+        <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BDeaths+%28Obituaries%29%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
+        <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/Obituary"/> -->
+        <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6512</nyt:associated_article_count>
+        <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
+        <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
+        <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
+        <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/deaths_obituaries_des"/> -->
+        <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.obituary"/> -->
+        <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://data.nytimes.com/12616005164565487480">
+        <skos:prefLabel xml:lang="en">Federal District Courts</skos:prefLabel>
+        <rdfs:label xml:lang="en">Federal District Courts</rdfs:label>
+        <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/federal_district_courts_des"/> -->
+        <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-09</nyt:first_use>
+        <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BFederal+District+Courts%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
+        <!-- <owl:sameAs rdf:resource="http://dbpedia.org/resource/United_States_district_court"/> -->
+        <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</nyt:number_of_variants>
+        <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
+        <!-- <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en.united_states_district_court"/> -->
+        <skos:scopeNote xml:lang="en">Used for coverage of the court system itself (appointments, confirmation hearings, ethical questions raised about the judges, reorganizations, work loads, etc.) as well as trials and decisions.&lt;br&gt;</skos:scopeNote>
+        <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-07</nyt:latest_use>
+        <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</nyt:associated_article_count>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://data.nytimes.com/N40919251707368647510">
+        <skos:scopeNote xml:lang="en">Used for all coverage of undergraduate colleges and universities.&amp;nbsp; When specific colleges or universities are the focus of the coverage, relevant organization terms are also assigned.&lt;br&gt;</skos:scopeNote>
+        <skos:narrowMatch rdf:resource="http://rdf.freebase.com/ns/en.university"/>
+        <skos:narrowMatch rdf:resource="http://dbpedia.org/resource/University"/>
+        <nyt:first_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</nyt:first_use>
+        <nyt:latest_use rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</nyt:latest_use>
+        <nyt:search_api_query rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.nytimes.com/svc/search/v1/article?query=+nytd_des_facet%3A%5BColleges+and+Universities%5D&amp;rank=newest&amp;fields=abstract,author,body,byline,classifiers_facet,column_facet,date,day_of_week_facet,des_facet,desk_facet,fee,geo_facet,lead_paragraph,material_type_facet,multimedia,nytd_byline,nytd_des_facet,nytd_geo_facet,nytd_lead_paragraph,nytd_org_facet,nytd_per_facet,nytd_section_facet,nytd_title,nytd_works_mentioned_facet,org_facet,page_facet,per_facet,publication_day,publication_month,publication_year,section_page_facet,small_image_height,small_image_url,small_image_width,source_facet,title,url,word_count,works_mentioned_facet</nyt:search_api_query>
+        <nyt:number_of_variants rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</nyt:number_of_variants>
+        <nyt:associated_article_count rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2664</nyt:associated_article_count>
+        <!-- <owl:sameAs rdf:resource="http://data.nytimes.com/colleges_and_universities_des"/> -->
+        <skos:prefLabel xml:lang="en">Colleges and Universities</skos:prefLabel>
+        <rdfs:label xml:lang="en">Colleges and Universities</rdfs:label>
+        <skos:inScheme rdf:resource="http://data.nytimes.com/elements/nytd_des"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+  <rdf:Description rdf:about="http://data.nytimes.com/elements/nytd_des">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:prefLabel xml:lang="en">New York Times Subject Descriptors</skos:prefLabel>
+    <rdfs:label xml:lang="en">New York Times Subject Descriptors</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

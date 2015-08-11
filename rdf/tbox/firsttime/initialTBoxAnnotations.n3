@@ -1,5 +1,18 @@
 @prefix vivoweb: <http://vivoweb.org/ontology/core#> .
 @prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+
+##### ONTOLOGY METADATA #####
+
+<http://vitro.mannlib.cornell.edu/ns/vitro/public>
+    rdfs:label "Vitro Public Ontology"@en-US ;
+    vitro:ontologyPrefixAnnot "vitro-public"^^xsd:string .
+
+    
+##### CLASSES #####
 
 vivoweb:DateTimeValue
       vitro:hiddenFromDisplayBelowRoleLevelAnnot
@@ -11,4 +24,42 @@ vivoweb:DateTimeValueInterval
               
 vivoweb:DateTimeValuePrecision
       vitro:hiddenFromDisplayBelowRoleLevelAnnot
-              <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;              
+              <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;     
+
+skos:Concept
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/gedcom/demo#vitroClassGroupConcepts> .
+    
+skos:ConceptScheme
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/gedcom/demo#vitroClassGroupConceptSchemes> .
+    
+skos:Collection
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/gedcom/demo#vitroClassGroupCollections> .
+    
+skos:OrderedCollection
+    vitro:hiddenFromDisplayBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:hiddenFromPublishBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+    vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+          <http://vitro.mannlib.cornell.edu/ns/vitro/role#editor> ;
+    vitro:inClassGroup <http://demo.mannlib.cornell.edu/gedcom/demo#vitroClassGroupCollections> .
+    
+                
