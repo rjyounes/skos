@@ -1,14 +1,15 @@
 @prefix vivoweb: <http://vivoweb.org/ontology/core#> .
-@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vitro:   <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 
 
 ##### ONTOLOGY METADATA #####
 
 <http://www.w3.org/2004/02/skos/core#> 
-    rdfs:label "SKOS (Simple Knowledge Organization System"@en-US ;  
+    rdfs:label "SKOS (Simple Knowledge Organization System)"@en-US ;  
     vitro:ontologyPrefixAnnot "skos"^^xsd:string .
     
 <http://vitro.mannlib.cornell.edu/ns/vitro/public>
@@ -22,15 +23,15 @@
 
 vivoweb:DateTimeValue
       vitro:hiddenFromDisplayBelowRoleLevelAnnot
-              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> ;
+              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> .
               
 vivoweb:DateTimeValueInterval
       vitro:hiddenFromDisplayBelowRoleLevelAnnot
-              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> ;
+              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> .
               
 vivoweb:DateTimeValuePrecision
       vitro:hiddenFromDisplayBelowRoleLevelAnnot
-              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> ;    
+              <http://vitro.mannlib.cornell.edu/ns/vitro/role#nobody> .    
 
 skos:Concept
     vitro:hiddenFromDisplayBelowRoleLevelAnnot
