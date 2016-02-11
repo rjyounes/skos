@@ -13,19 +13,19 @@
         and from display below root user level.        
     -->
 
-    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthDayPrecision ">
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthDayPrecision">
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
     </rdf:Description>
     
-    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision ">
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision">
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
     </rdf:Description>
     
-    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthPrecision ">
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yearMonthPrecision">
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
     </rdf:Description>
     
-    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yeaPrecision ">
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#yeaPrecision">
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
     </rdf:Description>
 </rdf:RDF>
